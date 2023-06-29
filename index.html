@@ -7,59 +7,64 @@
     <title>Form</title>
 </head>
 <body>
-    <div class="body">
-        <div class="image">
-            <img id="image" src="bg.jpg">
-        </div>
-        <div class="word">
-            <div>
-                <p>This is not a real online service! You know you need something like this in your life
-                    to help you realize your deepest dreams.
-                <br>
-                    Sign up <em>now</em> to get started.
-                    <br><br>
-                    You know you want to.
-                </p>
-            </div>
-            <main class="detail">
-                <h3>Let's Do This!</h3>
-                <div class="row1">
-                    <div class="input">
-                        <label for="first-name">First Name</label>
-                        <input type="text" placeholder="Thor...">
-                    </div>
-                    <div class="input">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" placeholder="Odinson..." name="">
-                    </div>
-                </div>
-                <div class="row2">
-                    <div class="input">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="xyz@gmail.com">
-                    </div>
-                    <div class="input">
-                        <label for="phone-number">Phone Number</label>
-                        <input type="number" placeholder="987653210">
-                    </div>
-                </div>
-                <div class="row3">
-                    <div class="input">
-                        <label for="password">Password</label>
-                        <input type="password">
-                    </div>
-                    <div class="input">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password">
-                    </div>
-                </div>
-            </main>    
-            <footer>
-                <button type="submit">Create Account</button>
+    <!-- Left side of page with picture -->
+    <div class="image">
+        <img id="image" src="bg.jpg">
+    </div>
 
-                <p>Already have an account?<a href="/">Log in</a></p>
-            </footer>
+    <!-- Some information -->
+    <div class="word">
+        <div class="info">
+            <p>This is not a real online service! You know you need something like this in your life
+                to help you realize your deepest dreams.
+            <br>
+                Sign up <em>now</em> to get started.
+                <br><br>
+                You know you want to.
+            </p>
         </div>
+
+        <!-- Sign up -->
+        <main class="detail">
+            <h3>Let's Do This!</h3>
+            <div class="row">
+                <div class="input">
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="Thor...">
+                </div>
+                <div class="input">
+                    <label for="last-name">Last Name</label>    
+                    <input type="text" placeholder="Odinson..." name="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xyz@gmail.com">
+                </div>
+                <div class="input">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" placeholder="987653210">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password">
+                </div>
+                <div class="input">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password">
+                </div>
+            </div>
+        </main>    
+
+        <!-- Submit button -->
+        <footer class="submit-button">
+            <button type="submit">Create Account</button>
+
+            <p>Already have an account?<a href="/"> Log in</a></p>
+        </footer>
     </div>
 </body>
 </html>
