@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Form</title>
+    <script src="index.js" defer></script>
+    <title>Form</title> 
 </head>
 <body>
     <!-- Left side of page with picture -->
@@ -32,7 +33,7 @@
         <!-- Sign up -->
         <main class="detail">
             <h3>Let's Do This!</h3>
-            <form method="post" target="_blank">
+            <form id="signup" method="post"onsubmit="return false">
                 <div class="row">
                     <div class="input">
                         <label for="first-name">First Name</label>
@@ -67,7 +68,7 @@
 
         <!-- Submit button -->
         <footer class="submit-button">
-            <button type="submit">Create Account</button>
+            <button id="submit" type="submit">Create Account</button>
 
             <p>Already have an account?<a href="file:///D:/Web/form/index.html  "> Log in</a></p>
         </footer>

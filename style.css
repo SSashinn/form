@@ -31,7 +31,8 @@ body{
 .logo>img+p{
     height: 90%;
     font-size: 8em;
-    opacity: 1;}
+    opacity: 1;
+}
 
 
 .image>p{
@@ -96,6 +97,17 @@ input:focus{
 
 .row:last-child>div>input{
     border: 2px solid red;
+}
+
+.error{
+    color: red;
+    margin: -10px 0px 0px 46px;
+}
+
+.green{
+    color: green;
+    margin: -10px 0px 0px 46px;
+
 }
 
 
