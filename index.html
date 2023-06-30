@@ -10,6 +10,11 @@
     <!-- Left side of page with picture -->
     <div class="image">
         <img id="image" src="bg.jpg">
+        <div class="logo">
+            <img src="odin.png" alt="Odin Logo">
+            <p id="text">ODIN</p>
+        </div>
+        <p>photo by Halie West on Unsplash</p>
     </div>
 
     <!-- Some information -->
@@ -27,36 +32,37 @@
         <!-- Sign up -->
         <main class="detail">
             <h3>Let's Do This!</h3>
-            <div class="row">
-                <div class="input">
-                    <label for="first-name">First Name</label>
-                    <input type="text" placeholder="Thor...">
+            <form method="post" target="_blank">
+                <div class="row">
+                    <div class="input">
+                        <label for="first-name">First Name</label>
+                        <input id="first-name" type="text" placeholder="Thor..." name="first-name">
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last Name</label>    
+                        <input id="last-name" type="text" placeholder="Odinson..." name="last-name">
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="last-name">Last Name</label>    
-                    <input type="text" placeholder="Odinson..." name="">
+                <div class="row">
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="xyz@gmail.com" name="email">
+                    </div>
+                    <div class="input">
+                        <label for="phone-number">Phone Number</label>
+                        <input id="phone-number" type="tel" maxlength="10" name="phone-number" >
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input">
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="xyz@gmail.com">
+                <div class="row">
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password">
+                    </div>
+                    <div class="input">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input id="confirm-password" type="password" name="confirm-password">
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="phone-number">Phone Number</label>
-                    <input type="number" placeholder="987653210">
-                </div>
-            </div>
-            <div class="row">
-                <div class="input">
-                    <label for="password">Password</label>
-                    <input type="password">
-                </div>
-                <div class="input">
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password">
-                </div>
-            </div>
         </main>    
 
         <!-- Submit button -->
@@ -65,6 +71,7 @@
 
             <p>Already have an account?<a href="file:///D:/Web/form/index.html  "> Log in</a></p>
         </footer>
+    </form>
     </div>
 </body>
 </html>
