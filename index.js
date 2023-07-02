@@ -8,6 +8,7 @@ if (pass.value.length <1){
     red.classList.add('error');
     container.appendChild(red);
 }
+
 pass.addEventListener('input', () => {
     if (pass.value.length ==0){
         red.className = 'error';
@@ -19,7 +20,6 @@ pass.addEventListener('input', () => {
     }
 
     else if (pass.value === confPass.value){
-        // red.style.color = 'green';
         red.className = "green";
         red.textContent = 'The password are the same';
     }
